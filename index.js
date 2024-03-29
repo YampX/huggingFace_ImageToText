@@ -5,7 +5,7 @@ config();
 
 const hf = new HfInference(process.env.HFTOKEN);
 
-const imageURL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr79XufHLHCyEJK5voP0WLRcckv9LhQbn4CiYIq7V9bg&s";
+const imageURL = "https://i.pinimg.com/originals/81/e2/28/81e2285225282c6dc6cbca2545da669a.jpg";
 
 const response = await fetch(imageURL);
 const blob = await response.blob();
